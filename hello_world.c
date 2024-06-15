@@ -1,5 +1,8 @@
 #include <stdio.h>
 
 int main(void) {
-    printf("Hello world!\n");
+    int i = 2;
+    double f = 3.14;
+    char* s = "Hello world!";
+    printf("%s i = %d and f = %f\n", s, i, f);
 }
